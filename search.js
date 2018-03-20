@@ -43,8 +43,12 @@ function delete_near(x, y) {
 	}
 }
 
+var indexX = 1;
+var indexY = 4;
+
 console.log('Before:');
 console.log(matrix);
-delete_near(1, 4);
+delete_near(indexX, indexY);
+console.log('Element at: x = ' + indexX + " y = " + indexY);
 console.log('After:');
 console.log(matrix);
